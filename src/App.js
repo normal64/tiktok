@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+ import React from 'react';
+ import LoginForm from "./components/LoginForm";
+ import MainPage from './MainPage'
+ import {BrowserRouter as Router, Route, Routes, useParams} from 'react-router-dom'
+ import "../src/components/css/App.css";
+ 
+ const App = () => {
+     return (
+         <Router>
+         <div 
+        //  className="ui container main-container"
+         >
+             <Routes>
+                 <Route path="/" exact element = {<LoginForm />} />
+                 <Route path="/index" exact element = {<MainPage />} />
+            </Routes>
+         </div>
+         </Router>
+     )
+ }
+ 
+ export default App
+ 

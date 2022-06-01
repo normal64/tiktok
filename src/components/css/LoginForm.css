@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&family=Shadows+Into+Light&display=swap');
+
+.ui.header{
+    font-family: 'Shadows Into Light', cursive ;
+    font-size: 5em;
+    margin-right: auto;
+    margin-left: auto;
+    width: 10%;
+}
+.ui.form{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    height: 30%;
+}
+.ui.blue{
+    margin-left: auto;
+    margin-right: auto;
+}
+.disabled-link {
+    pointer-events: none;
+  }

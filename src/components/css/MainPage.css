@@ -1,0 +1,12 @@
+.screen-text{
+    color: aliceblue;
+    position: relative;
+    top: 7em;
+}
+.ui.segment{
+    top: 4em;
+    background-color: antiquewhite;
+}
+/* body{
+    background-color: blue;
+} */
