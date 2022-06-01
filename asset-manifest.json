@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/tiktoknot/static/css/main.cd67d0a8.css",
-    "main.js": "/tiktoknot/static/js/main.98061900.js",
-    "index.html": "/tiktoknot/index.html",
-    "main.cd67d0a8.css.map": "/tiktoknot/static/css/main.cd67d0a8.css.map",
-    "main.98061900.js.map": "/tiktoknot/static/js/main.98061900.js.map"
+    "main.css": "/static/css/main.cd67d0a8.css",
+    "main.js": "/static/js/main.98061900.js",
+    "index.html": "/index.html",
+    "main.cd67d0a8.css.map": "/static/css/main.cd67d0a8.css.map",
+    "main.98061900.js.map": "/static/js/main.98061900.js.map"
   },
   "entrypoints": [
     "static/css/main.cd67d0a8.css",
